@@ -1,0 +1,90 @@
+# Diretórios e arquivos padrão do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Diretórios de build
+/build/
+!/src/main/**/build/
+!/src/test/**/build/
+!/src/integrationTest/**/build/
+
+# Arquivos de gradle
+.gradle/
+build/
+
+# Diretórios de cache
+/.gradle/
+.gradle/
+.gradle/caches/
+.gradle/wrapper/
+**/build/
+**/out/
+
+# Arquivos de configuração do IntelliJ
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+
+# Arquivos de configuração do Eclipse (caso algum dia migre ou use junto)
+.project
+.classpath
+/.settings/
+/.metadata/
+bin/
+tmp/
+
+# Diretório local do Maven
+.mvn/
+target/
+
+# Diretórios de distribuição
+dist/
+target/
+
+# Arquivos de pacote
+*.jar
+*.war
+*.ear
+
+# Arquivos de configuração do sistema operacional
+*.swp
+*~
+*#
+
+# Arquivos de cache do IDE
+/.classpath
+/.project
+/.settings/
+/bin/
+/tmp/
+/out/
+
+# Arquivos de segurança
+*.keystore
+
+# Certificados SSL
+*.pem
+*.cer
+*.crt
+*.der
+
+# Arquivos temporários
+.tmp/
+*.tmp
+
+# Diretórios de plugins de IDE
+/.idea/
+/.idea/modules.xml
+.idea/.name
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de configuração locais
+/local.properties
+/.vscode/

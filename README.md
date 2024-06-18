@@ -1,16 +1,16 @@
 # 🚀 POC Chain Of Responsibility 📚
 
+Este projeto trata-se de uma prova de conceito sobre o Desing Pattern Chain Of Responsibility.
 
 [![GitHub stars](https://img.shields.io/github/stars/matheuscarv69/poc-chain-of-responsibility?color=7159)](https://github.com/matheuscarv69/poc-chain-of-responsibility/stargazers)
 
 ## 🤔 O que é este projeto?
-
+Esse projeto é um demonstrativo de como se usar o Design Pattern Chain Of Responsibility de uma forma simples.
 
 ## ⚡ Disponibilidade
 
 
 ## 🛠 Pré-Requisitos
-
 ### 📍 Local
 
 Se você quiser fazer alguma modificação no código precisará ter instalado em sua máquina as seguintes ferramentas:

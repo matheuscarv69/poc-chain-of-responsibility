@@ -17,45 +17,70 @@ Se você quiser fazer alguma modificação no código precisará ter instalado e
 
 - [Java JDK 17+](https://www.oracle.com/br/java/technologies/javase-jdk17-downloads.html)
 
-### 🐳 Docker
+[//]: # (### 🐳 Docker)
 
-Este projeto conta com um **docker-compose**, inclusive a própria imagem da aplicação já está configurada para ser
-executada no docker.
+[//]: # ()
+[//]: # (Este projeto conta com um **docker-compose**, inclusive a própria imagem da aplicação já está configurada para ser)
 
-Os requisitos para isso são:
+[//]: # (executada no docker.)
 
-- [Docker](https://www.docker.com/products/docker-desktop) - Baixe de acordo com o seu SO
-- [Docker-compose](https://docs.docker.com/compose/install/) - Se estiver utilizando Windows, o Docker desktop já possui o docker-compose instalado
+[//]: # ()
+[//]: # (Os requisitos para isso são:)
 
-A imagem da aplicação também está disponível no Docker Hub:
+[//]: # ()
+[//]: # (- [Docker]&#40;https://www.docker.com/products/docker-desktop&#41; - Baixe de acordo com o seu SO)
 
-...Em breve
+[//]: # (- [Docker-compose]&#40;https://docs.docker.com/compose/install/&#41; - Se estiver utilizando Windows, o Docker desktop já possui o docker-compose instalado)
 
-Caso queria executa-lá através dessa imagem, abaixo tem alguns comandos que podem lhe ajudar:
+[//]: # ()
+[//]: # (A imagem da aplicação também está disponível no Docker Hub:)
 
-## ⬇ 1. Pull
+[//]: # ()
+[//]: # (...Em breve)
 
-```shell
-docker pull matheuscarv69/poc-chain-of-responsibility
-```
-## 🏃‍♂️ 2. Running
+[//]: # ()
+[//]: # (Caso queria executa-lá através dessa imagem, abaixo tem alguns comandos que podem lhe ajudar:)
 
-```shell
-```
+[//]: # ()
+[//]: # (## ⬇ 1. Pull)
 
-## 🎲 Executando a API com o docker-compose
-Com esse repositório já clonado em sua máquina e com todos os pré-requisitos atendidos.
+[//]: # ()
+[//]: # (```shell)
 
-1. Você deve ir até a raiz do projeto onde o arquivo **docker-compose.yml** está.
-2. Deve abrir um terminal na raiz do projeto.
-3. Agora certifique-se que o seu Docker já está em execução.
-4. Execute o seguinte comando no terminal:
+[//]: # (docker pull matheuscarv69/poc-chain-of-responsibility)
 
-```bash
-docker-compose up -d
-```
+[//]: # (```)
 
-5. Com isso sua aplicação já está em execução por padrão na porta local 8080
+[//]: # (## 🏃‍♂️ 2. Running)
+
+[//]: # ()
+[//]: # (```shell)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (## 🎲 Executando a API com o docker-compose)
+
+[//]: # (Com esse repositório já clonado em sua máquina e com todos os pré-requisitos atendidos.)
+
+[//]: # ()
+[//]: # (1. Você deve ir até a raiz do projeto onde o arquivo **docker-compose.yml** está.)
+
+[//]: # (2. Deve abrir um terminal na raiz do projeto.)
+
+[//]: # (3. Agora certifique-se que o seu Docker já está em execução.)
+
+[//]: # (4. Execute o seguinte comando no terminal:)
+
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (docker-compose up -d)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (5. Com isso sua aplicação já está em execução por padrão na porta local 8080)
 
 [//]: # (## 📝Fazendo requisições - Insomnia)
 
